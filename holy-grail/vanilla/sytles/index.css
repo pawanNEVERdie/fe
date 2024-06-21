@@ -1,11 +1,10 @@
-/* Reset default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styles for layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -29,7 +28,7 @@ header, footer {
 main {
     display: flex;
     flex: 1;
-    overflow: hidden; /* Prevent columns from overflowing */
+    overflow: hidden;
 }
 
 .column {
